@@ -17,7 +17,7 @@ class _IntroPageState extends State<IntroPage> {
       appBar: AppBar(
         title: const Text("I N F O  M A H A S I S W A"),
         centerTitle: true,
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.blue,
       ),
       body: Center(
         child: ElevatedButton(
