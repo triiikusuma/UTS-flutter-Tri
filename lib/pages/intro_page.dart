@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_uts/NavBar.dart';
+
 
 class IntroPage extends StatefulWidget {
   const IntroPage({Key? key}) : super(key: key);
@@ -11,7 +13,12 @@ class _IntroPageState extends State<IntroPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("I N T R O P A G E")),
+      drawer: NavBar(), // Gunakan NavBar di sini
+      appBar: AppBar(
+        title: const Text("I N F O  M A H A S I S W A"),
+        centerTitle: true,
+        backgroundColor: Colors.blueGrey,
+      ),
       body: Center(
         child: ElevatedButton(
           child: const Text("Go to Home"),
