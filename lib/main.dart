@@ -4,7 +4,7 @@ import 'package:flutter_application_uts/card/card2.dart';
 import 'package:flutter_application_uts/card/card3.dart';
 import 'package:flutter_application_uts/card/card4.dart';
 import 'package:flutter_application_uts/card/card5.dart';
-import 'package:flutter_application_uts/card/card6.dart';
+import 'package:flutter_application_uts/card/card_add_data.dart';
 import 'package:flutter_application_uts/pages/home_page.dart';
 
 void main() {
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         '/card3':(context) => const Card3(),
         '/card4':(context) => const Card4(),
         '/card5':(context) => const Card5(),
-        '/card6':(context) => const Card6(),
+        '/cardAddData':(context) => const CardAddData(),
         '/homepage':(context) => const HomePage(),
       },
     );

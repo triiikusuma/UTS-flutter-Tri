@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Card6 extends StatefulWidget {
-  const Card6({super.key});
+class CardAddData extends StatefulWidget {
+  const CardAddData({super.key});
   
   @override
-  State<Card6> createState() => _Card6();
+  State<CardAddData> createState() => _CardAddData();
 }
 
-class _Card6 extends State<Card6> {
+class _CardAddData extends State<CardAddData> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,11 +57,11 @@ body:ListView(
           subtitle: Text("Program Studi"),
         ),
         const ListTile(
-          title: Text("421313252"),
+          title: Text("Add NIM Here (+)"),
           subtitle: Text("NIM"),
         ),
         const ListTile(
-          title: Text("Jalan pratama No.33 Wn"),
+          title: Text("Add Adress Here (+)"),
           subtitle: Text("Alamat"),
         ),
         const ListTile(

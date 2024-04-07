@@ -75,7 +75,22 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
               ),
-              const SizedBox(height: 20), // Spacer
+              SizedBox(height: 20),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: 'Cari Mahasiswa',
+                    suffixIcon: IconButton(
+                      icon: Icon(Icons.search),
+                      onPressed: () {
+                        //
+                      },
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(height: 20),
               ListView(
                 shrinkWrap: true,
                 physics: NeverScrollableScrollPhysics(),
@@ -85,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                   _buildElevatedButton(context, "Ary Mahendra", '/card3'),
                   _buildElevatedButton(context, "Adi Saputra", '/card4'),
                   _buildElevatedButton(context, "Indra Maheswara", '/card5'),
-                  _buildElevatedButton(context, "Add On Here (+)", '/card6'),
+                  _buildElevatedButton(context, "Add On Here (+)", '/cardAddData'),
                 ],
               ),
             ],
